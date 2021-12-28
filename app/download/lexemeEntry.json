@@ -1,0 +1,108 @@
+[
+  {
+    "projectname": "Project_111"
+  },
+  {
+    "username": "ritesh",
+    "projectname": "Project_111",
+    "headword": "अच्छा",
+    "Lexeme Form Script": [
+      {
+        "Devanagari": "अच्छा"
+      }
+    ],
+    "Pronunciation": "/gʊd /",
+    "Additional Metadata Information": "",
+    "Any Additional Information": "",
+    "Encyclopedic Information": "",
+    "Source": "",
+    "Allomorph": {
+      "Allomorph 1": [
+        {
+          "Stem Allomorph": ""
+        },
+        {
+          "Environment": ""
+        }
+      ]
+    },
+    "Sense": {
+      "Sense 1": [
+        {
+          "Gloss Bengali": "ভালো"
+        },
+        {
+          "Definition Bengali": "ভালো"
+        },
+        {
+          "Gloss English": "good"
+        },
+        {
+          "Definition English": "good"
+        },
+        {
+          "Grammatical Category": "Adjective"
+        },
+        {
+          "Example": "Ram is a good boy"
+        },
+        {
+          "Free Translation": "Ram is a good boy"
+        }
+      ]
+    },
+    "Variant": {
+      "Variant 1": [
+        {
+          "Variant Form": ""
+        }
+      ]
+    },
+    "filesname": {
+      "Upload Sound File": "0840119_tigegu.wav"
+    },
+    "gloss": "ভালো",
+    "grammaticalcategory": "Adjective",
+    "lexemedeleteFLAG": 0,
+    "updatedBy": "ritesh",
+    "lexemeId": "L20211228183320085678",
+    "langscripts": {
+      "langname": "Hindi",
+      "langcode": "hin",
+      "headwordscript": {
+        "Deva": "Devanagari"
+      },
+      "lexemeformscripts": {
+        "Deva": "Devanagari"
+      },
+      "glosslangs": {
+        "Ben": "Bengali",
+        "Eng": "English"
+      },
+      "glossscripts": {
+        "Deva": "Devanagari",
+        "Gujr": "Gujarati",
+        "Latn": "Latin"
+      }
+    },
+    "SenseNew": {
+      "Sense 1": {
+        "Grammatical Category": "Adjective",
+        "Example": "Ram is a good boy",
+        "Free Translation": "Ram is a good boy",
+        "Gloss": {
+          "ben": "ভালো",
+          "eng": "good"
+        },
+        "Definition": {
+          "ben": "ভালো",
+          "eng": "good"
+        },
+        "Lexical Relation": {}
+      }
+    },
+    "Lexeme Form": {
+      "Deva": "अच्छा"
+    }
+  }
+]
