@@ -20,7 +20,7 @@ If you would like to set up the app on your own server / system for testing and 
 
 1. Clone the app GitHub repository
     ```
-    git clone https://github.com/drudgery/lifetestapp.git
+    git clone https://github.com/kmi-linguistics/life.git
     ```
 2.  Change directory to the app root directory(repo name)
     ```
