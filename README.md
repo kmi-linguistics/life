@@ -1,5 +1,5 @@
 # LiFe
-## Linguistic Field Data and Management System [LiFe]
+## Linguistic Field Data Management and Analysis System
 
 This repository hosts the code and installation instructions for the LiFe, developed by the M.Sc. Computational Linguistics and M.Phil Linguistics students of Dr. Bhimrao Ambedkar Univesity, Agra - Siddharth Singh, Shyam Ratan and Sonal Sinha - under the supervision of Dr. Ritesh Kumar.
 
