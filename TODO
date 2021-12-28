@@ -1,0 +1,40 @@
+TODO (for V0.1 release)
+=======================
+
+Sentence
+=========
+1. Sentence Edit, Delete, Sound File Upload
+2. Sharing lexicon from sentence
+3. Checkbox for adding lexeme from sentence
+4. Delete lexemes of sentence while deleting sentence
+5. Search sentence using word / gloss / translation
+6. View sentence in table and label the rows
+7. Separate sentence view
+8. Pagination in view page
+9. Table with multiple rows (for longer sentences)
+10. Check language of translation (far future)
+===================================================
+
+
+Sharing
+=========
+1. View Lexicon; View Sentence; Edit L; Edit S; Del L; Del S; Add S; Add L; Public L; Public S; Public EL; Public ES; Pub DL; Pub DS; Pub AS; Pub AL
+======================
+
+
+
+Import and Export
+===================
+1. Lexeme import from XLSX / CSV - put filename in column
+2. Upload files directly while uploading lexemes / sentences
+3. Sentence import from XLSX / CSV
+4. Export ODS
+5. Export printable dictionary in PDF / LaTeX
+6. Import full project
+=================================================================
+
+
+Automation
+===========
+1. Take data from both Lexeme and sentence
+======================
