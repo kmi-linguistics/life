@@ -22,7 +22,7 @@ If you would like to set up the app on your own server / system for testing and 
 
 1. Clone the app GitHub repository
     ```
-    git clone https://github.com/drudgery/lifetestapp.git
+    git clone https://github.com/kmi-linguistics/life.git
     ```
 2.  Change directory to the app root directory(repo name)
     ```
@@ -39,6 +39,7 @@ If you would like to set up the app on your own server / system for testing and 
 5. In browser address bar, type the following location
     ```
     http://localhost:5000
+
 
 ### The slightly involved way (if the easy way didn't work or you are not on Linux)
 
