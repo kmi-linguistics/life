@@ -18,6 +18,30 @@ If you would like to set up the app on your own server / system for testing and 
 
 ### <font color="red"> Remember that the app is still in Alpha testing phase and is made available for feature request and feedback. Do NOT use it for production purposes. </font>
 
+### The Easy Way (for Linux-based Systems)
+
+1. Clone the app GitHub repository
+    ```
+    git clone https://github.com/drudgery/lifetestapp.git
+    ```
+2.  Change directory to the app root directory(repo name)
+    ```
+    cd life
+    ```
+3. Run the installation script
+    ```
+    ./install.sh
+    ```
+4. Run the application
+    ```
+    flask run -h 0.0.0.0
+    ```
+5. In browser address bar, type the following location
+    ```
+    http://localhost:5000
+
+### The slightly involved way (if the easy way didn't work or you are not on Linux)
+
 1. Clone the app GitHub repository
     ```
     git clone https://github.com/drudgery/lifetestapp.git
@@ -36,7 +60,7 @@ If you would like to set up the app on your own server / system for testing and 
     ```
 5. Install all dependencies from requirements.txt
     ```
-    pip install requirements.txt
+    pip3 install requirements.txt
     ```
 6. Setup mongodb
     ```
