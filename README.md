@@ -61,7 +61,7 @@ If you would like to set up the app on your own server / system for testing and 
     ```
 5. Install all dependencies from requirements.txt
     ```
-    pip3 install requirements.txt
+    pip3 install -r requirements.txt
     ```
 6. Setup mongodb
     ```

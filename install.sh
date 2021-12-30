@@ -7,7 +7,7 @@ echo "============Activate the environment==============="
 source venv/bin/activate
 
 echo "============Installing Dependencies==============="
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 
 echo "============Installing MongoDB==============="
 sudo apt install mongodb
