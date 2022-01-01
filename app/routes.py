@@ -46,10 +46,10 @@ def home():
     # print(f'{"#"*80}\n{mongo.db.list_collection_names()}')
     userprojects = mongo.db.userprojects              # collection of users and their respective projects
 
-    currentuserprojectsname =  list(currentuserprojects())
+    currentuserprojectsname =  sorted(list(currentuserprojects()))
     activeprojectname = userprojects.find_one({ 'username' : current_user.username },\
                     {'_id' : 0, 'activeproject': 1})['activeproject']
-    print(currentuserprojectsname, activeprojectname)
+    # print(currentuserprojectsname, activeprojectname)
     return render_template('home.html',  data=currentuserprojectsname, activeproject=activeprojectname)
 
 
@@ -835,9 +835,13 @@ def enternewlexeme():
 
             projectForm['username'] = current_user.username
 
-            projects.update_one({ "_id" : projects_id }, \
-                { '$set' : { projectForm['projectname'] : {"projectOwner" : current_user.username,"lexemeInserted" : 0, "lexemeDeleted" : 0, \
-                    'sharedwith': [projectForm['username']], 'projectdeleteFLAG' : 0} }})
+            try:
+                projects.update_one({ "_id" : projects_id }, \
+                    { '$set' : { projectForm['projectname'] : {"projectOwner" : current_user.username,"lexemeInserted" : 0, "lexemeDeleted" : 0, \
+                        'sharedwith': [projectForm['username']], 'projectdeleteFLAG' : 0} }})
+            except:
+                flash("Please enter the Project Name!!!")
+                return redirect(url_for('newproject'))            
 
             
             # print(usersprojects.find_one({ 'username' : current_user.username }))
