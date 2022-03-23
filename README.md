@@ -100,3 +100,18 @@ A Short Video Demo for using the app is available at the following link -
 For all queries / suggestions / feedback as well as updates related to the app, please join our Google Group -
 
 <b><a href=https://groups.google.com/g/lifeapp>LiFe Web App Google Group</a></b>
+
+## Citation
+
+We do not have a publication yet. However you may cite our demo at ICON-2021 (the paper is at ArXiV but will be soon published in the ICON-2021 Proceedings). You may also directly cite this repository.
+
+    @misc{https://doi.org/10.48550/arxiv.2203.11443,
+       doi = {10.48550/ARXIV.2203.11443},
+       url = {https://arxiv.org/abs/2203.11443},
+       author = {Singh, Siddharth and Kumar, Ritesh and Ratan, Shyam and Sinha, Sonal},
+       keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+       title = {Demo of the Linguistic Field Data Management and Analysis System -- LiFE},
+       publisher = {arXiv},
+       year = {2022},
+       copyright = {arXiv.org perpetual, non-exclusive license}
+     }
