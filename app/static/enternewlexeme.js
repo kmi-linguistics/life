@@ -59,7 +59,9 @@ var language = [{
 ];
 
 var semanticDomains = [
+	{"id": "", "text": ""},
 	{
+		
 		"text":"1 Universe, creation",
 		"children":
 		[
@@ -7248,155 +7250,165 @@ var semanticDomains = [
 ]
 
 var lexicalRelations = [
-  {
-  	"id":"Hyponym",
-  	"text":"Hyponym"
-  },
-  {
-  	"id":"Hypernym",
-  	"text":"Hypernym"
-  },
-  {
-  	"id":"Meronym (part of)",
-  	"text":"Meronym (part of)"
-  },
-  {
-  	"id":"Antonym",
-  	"text":"Antonym"
-  },
-  {
-  	"id":"Synonym",
-  	"text":"Synonym"
-  }
+	{
+		"id": "",
+		"text": ""
+	},
+	{
+		"id":"Hyponym",
+		"text":"Hyponym"
+	},
+	{
+		"id":"Hypernym",
+		"text":"Hypernym"
+	},
+	{
+		"id":"Meronym (part of)",
+		"text":"Meronym (part of)"
+	},
+	{
+		"id":"Antonym",
+		"text":"Antonym"
+	},
+	{
+		"id":"Synonym",
+		"text":"Synonym"
+	}
 ]
 
 var grammaticalCategories = 
 [
-  {"id": "Conjunction", "text": "Conjunction"},
-  {"id": "Particle", "text": "Particle"},
-  {"id": "Noun", "text": "Noun"},
-  {"id": "Adjective", "text": "Adjective"},
-  {"id": "Article", "text": "Article"},
-  {"id": "Adverb", "text": "Adverb"},
-  {"id": "FusedPreposition", "text": "FusedPreposition"},
-  {"id": "Pronoun", "text": "Pronoun"},
-  {"id": "Adposition", "text": "Adposition"},
-  {"id": "Determiner", "text": "Determiner"},
-  {"id": "Symbol", "text": "Symbol"},
-  {"id": "Numeral", "text": "Numeral"},
-  {"id": "Verb", "text": "Verb"}
+	{"id": "", "text": ""},
+	{"id": "Conjunction", "text": "Conjunction"},
+	{"id": "Particle", "text": "Particle"},
+	{"id": "Noun", "text": "Noun"},
+	{"id": "Adjective", "text": "Adjective"},
+	{"id": "Article", "text": "Article"},
+	{"id": "Adverb", "text": "Adverb"},
+	{"id": "FusedPreposition", "text": "FusedPreposition"},
+	{"id": "Pronoun", "text": "Pronoun"},
+	{"id": "Adposition", "text": "Adposition"},
+	{"id": "Determiner", "text": "Determiner"},
+	{"id": "Symbol", "text": "Symbol"},
+	{"id": "Numeral", "text": "Numeral"},
+	{"id": "Verb", "text": "Verb"}
 ];
 
 var variantTypes = [
-  {
-    "text": "Dialectal Variant",
-    "children":
-    [
-     {"id": "Regional Variant",
-      "text": "Regional Variant"
-    },
-     {
-       "id": "Social Variant",
-       "text": "Social Variant"
-     },
-     {
-       "id": "Other Variation",
-       "text": "Other Variation"
-     }
-   ]
- }, 
- {
-   "id": "Free Variant",
-   "text": "Free Variant"
- },
- {
-   "id": "Spelling Variant",
-   "text": "Spelling Variant"
- },
- {
-   "id": "Unspecified Variant",
-   "text": "Unspecified Variant"
- }
+	{"id": "", "text": ""},
+	{
+		"text": "Dialectal Variant",
+		"children":
+		[
+		{"id": "Regional Variant",
+		"text": "Regional Variant"
+		},
+		{
+		"id": "Social Variant",
+		"text": "Social Variant"
+		},
+		{
+		"id": "Other Variation",
+		"text": "Other Variation"
+		}
+	]
+	}, 
+	{
+	"id": "Free Variant",
+	"text": "Free Variant"
+	},
+	{
+	"id": "Spelling Variant",
+	"text": "Spelling Variant"
+	},
+	{
+	"id": "Unspecified Variant",
+	"text": "Unspecified Variant"
+	}
 ]
 
 
 var morphTypes = [
-  {
-  	"id":"part particle",
-  	"text":"part particle"
-  },
-  {
-  	"id":"ifx infix",
-  	"text":"ifx infix"
-  },
-  {
-  	"id":"pfx prefix",
-  	"text":"pfx prefix"
-  },
-  {
-  	"id":"smfx simulfix",
-  	"text":"smfx simulfix"
-  },
-  {
-  	"id":"sfx suffix",
-  	"text":"sfx suffix"
-  },
-  {
-  	"id":"spfx suprafix",
-  	"text":"spfx suprafix"
-  },
-  {
-  	"id":"cfx circumfix",
-  	"text":"cfx circumfix"
-  },
-  {
-  	"id":"clit clitic",
-  	"text":"clit clitic"
-  },
-  {
-  	"id":"enclit enclitic",
-  	"text":"enclit enclitic"
-  },
-  {
-  	"id":"proclit proclitic",
-  	"text":"proclit proclitic"
-  },
-  {
-  	"id":"bd root bound root",
-  	"text":"bd root bound root"
-  },
-  {
-  	"id":"ubd root root",
-  	"text":"ubd root root"
-  },
-  {
-  	"id":"bd stem bound stem",
-  	"text":"bd stem bound stem"
-  },
-  {
-  	"id":"ubd stem stem",
-  	"text":"ubd stem stem"
-  },
-  {
-  	"id":"ifxnfx infixing interfix",
-  	"text":"ifxnfx infixing interfix"
-  },
-  {
-  	"id":"pfxnfx prefixing interfix",
-  	"text":"pfxnfx prefixing interfix"
-  },
-  {
-  	"id":"sfxnfx suffixing interfix",
-  	"text":"sfxnfx suffixing interfix"
-  },
-  {
-  	"id":"phr phrase",
-  	"text":"phr phrase"
-  },
-  {
-  	"id":"dis phr discontiguous phrase",
-  	"text":"dis phr discontiguous phrase"
-  }
+	{
+		"id": "",
+		"text": ""
+	},
+	{
+		"id":"part particle",
+		"text":"part particle"
+	},
+	{
+		"id":"ifx infix",
+		"text":"ifx infix"
+	},
+	{
+		"id":"pfx prefix",
+		"text":"pfx prefix"
+	},
+	{
+		"id":"smfx simulfix",
+		"text":"smfx simulfix"
+	},
+	{
+		"id":"sfx suffix",
+		"text":"sfx suffix"
+	},
+	{
+		"id":"spfx suprafix",
+		"text":"spfx suprafix"
+	},
+	{
+		"id":"cfx circumfix",
+		"text":"cfx circumfix"
+	},
+	{
+		"id":"clit clitic",
+		"text":"clit clitic"
+	},
+	{
+		"id":"enclit enclitic",
+		"text":"enclit enclitic"
+	},
+	{
+		"id":"proclit proclitic",
+		"text":"proclit proclitic"
+	},
+	{
+		"id":"bd root bound root",
+		"text":"bd root bound root"
+	},
+	{
+		"id":"ubd root root",
+		"text":"ubd root root"
+	},
+	{
+		"id":"bd stem bound stem",
+		"text":"bd stem bound stem"
+	},
+	{
+		"id":"ubd stem stem",
+		"text":"ubd stem stem"
+	},
+	{
+		"id":"ifxnfx infixing interfix",
+		"text":"ifxnfx infixing interfix"
+	},
+	{
+		"id":"pfxnfx prefixing interfix",
+		"text":"pfxnfx prefixing interfix"
+	},
+	{
+		"id":"sfxnfx suffixing interfix",
+		"text":"sfxnfx suffixing interfix"
+	},
+	{
+		"id":"phr phrase",
+		"text":"phr phrase"
+	},
+	{
+		"id":"dis phr discontiguous phrase",
+		"text":"dis phr discontiguous phrase"
+	}
 ]
 
 
@@ -7425,16 +7437,16 @@ function myFunction(newData) {
                 '<legend class="col-form-label">Lexeme Form'+
                 '<button class="btn btn-default pull-right" type="button" data-toggle="collapse"'+
                 'data-target=".script" aria-expanded="false" aria-controls="lexemeform">'+
-                '<span class="glyphicon glyphicon-chevron-down lf" aria-hidden="true"></span>'+
+                '<span class="glyphicon glyphicon-chevron-up lf" aria-hidden="true"></span>'+
                 '</button></legend>';
         // lexemeScript[0] is Head Word       
-        inpt += '<div class="collapse script"><div class="form-group">'+
+        inpt += '<div class="script collapse in"><div class="form-group">'+
                 '<label for="'+ lexemeScript[0] +'">'+ lexemeScript[0] +' (Head Word)</label>'+
                 '<input type="text" class="form-control" id="'+ lexemeScript[0] +'"'+ 
-                'placeholder="'+ lexemeScript[0] +'" name="Lexeme Form Script '+ lexemeScript[0] +'">'+
+                'placeholder="'+ lexemeScript[0] +'" name="Lexeme Form Script '+ lexemeScript[0] +'" required>'+
                 '</div></div>';
         for (var i = 1; i < lexemeScript.length; i++) {
-          inpt += '<div class="collapse script"><div class="form-group">'+
+          inpt += '<div class="script collapse in"><div class="form-group">'+
                 '<label for="'+ lexemeScript[i] +'">'+ lexemeScript[i] +'</label>'+
                 '<input type="text" class="form-control" id="'+ lexemeScript[i] +'"'+ 
                 'placeholder="'+ lexemeScript[i] +'" name="Lexeme Form Script '+ lexemeScript[i] +'">'+
@@ -7461,7 +7473,20 @@ function myFunction(newData) {
                 '</button></legend>';
 
         for (var i = 0; i < glossLang.length; i++) {
-          inpt += '<div class="col-md-6 collapse sense' + senseCount +'"><div class="form-group">'+
+			if (glossLang[i] === 'English') {
+				inpt += '<div class="col-md-6 collapse sense' + senseCount +'"><div class="form-group">'+
+                  '<label for="Gloss '+ glossLang[i] +'">Gloss '+ glossLang[i] +'</label>'+
+                  '<input type="text" class="form-control" id="Gloss '+ glossLang[i] +'"'+ 
+                  'name="Gloss '+ glossLang[i] + ' Sense '+ senseCount+'" required>'+
+                  '</div></div>'+
+                  '<div class="col-md-6 collapse sense' + senseCount +'"><div class="form-group">'+
+                  '<label for="Definition '+ glossLang[i] +'">Definition '+ glossLang[i] +'</label>'+
+                  '<input type="text" class="form-control" id="Definition '+ glossLang[i] +'"'+ 
+                  'name="Definition '+ glossLang[i] + ' Sense '+ senseCount+'">'+
+                  '</div></div>';
+			}
+			else {
+				inpt += '<div class="col-md-6 collapse sense' + senseCount +'"><div class="form-group">'+
                   '<label for="Gloss '+ glossLang[i] +'">Gloss '+ glossLang[i] +'</label>'+
                   '<input type="text" class="form-control" id="Gloss '+ glossLang[i] +'"'+ 
                   'name="Gloss '+ glossLang[i] + ' Sense '+ senseCount+'">'+
@@ -7471,6 +7496,8 @@ function myFunction(newData) {
                   '<input type="text" class="form-control" id="Definition '+ glossLang[i] +'"'+ 
                   'name="Definition '+ glossLang[i] + ' Sense '+ senseCount+'">'+
                   '</div></div>';
+			}
+          
         }
                 
         for (var i = 0; i < Sense.length; i++) {
@@ -7485,13 +7512,14 @@ function myFunction(newData) {
 				) {
             inpt += '<div class="col-md-4 collapse sense' + senseCount +'"><div class="form-group">'+
                     '<label for="'+ Sense[i].name +'">'+ Sense[i].name +'</label>'+
-                    '<select class="'+ Sense[i].name +'" name="'+ Sense[i].name + ' Sense '+ senseCount+'" multiple="multiple" style="width: 100%"></select>'+
+                    // '<select class="'+ Sense[i].name +'" name="'+ Sense[i].name + ' Sense '+ senseCount+'" multiple="multiple" style="width: 100%"></select>'+
+					'<select class="'+ Sense[i].name +'" name="'+ Sense[i].name + ' Sense '+ senseCount+'" style="width: 100%"></select>'+
                     '</div></div>';
           }
 		  else if (Sense[i].name === 'Grammatical Category') {
             inpt += '<div class="col-md-4 collapse sense' + senseCount +'"><div class="form-group">'+
                     '<label for="'+ Sense[i].name +'">'+ Sense[i].name +'</label>'+
-                    '<select class="'+ Sense[i].name +'" name="'+ Sense[i].name + ' Sense '+ senseCount+'" style="width: 100%"></select>'+
+                    '<select class="'+ Sense[i].name +'" name="'+ Sense[i].name + ' Sense '+ senseCount+'" style="width: 100%" required></select>'+
                     '</div></div>';
           }
           else {
@@ -7524,7 +7552,8 @@ function myFunction(newData) {
           if (Variant[i].name === 'Variant Type') {
             inpt += '<div class="col-md-4"><div class="form-group">'+
                     '<label for="'+ Variant[i].name +'">'+ Variant[i].name +'</label>'+
-                    '<select class="'+ Variant[i].name +'" name="'+ Variant[i].name + ' Variant '+ variantCount+'" multiple="multiple" style="width: 100%"></select>'+
+                    // '<select class="'+ Variant[i].name +'" name="'+ Variant[i].name + ' Variant '+ variantCount+'" multiple="multiple" style="width: 100%"></select>'+
+					'<select class="'+ Variant[i].name +'" name="'+ Variant[i].name + ' Variant '+ variantCount+'" style="width: 100%"></select>'+
                     '</div></div>';
           }
           else {
@@ -7557,7 +7586,8 @@ function myFunction(newData) {
           if (Allomorph[i].name === 'Morph Type') {
             inpt += '<div class="col-md-4"><div class="form-group">'+
                     '<label for="'+ Allomorph[i].name +'">'+ Allomorph[i].name +'</label>'+
-                    '<select class="'+ Allomorph[i].name +'" name="'+ Allomorph[i].name + ' Allomorph '+ allomorphCount+'" multiple="multiple" style="width: 100%"></select>'+
+                    // '<select class="'+ Allomorph[i].name +'" name="'+ Allomorph[i].name + ' Allomorph '+ allomorphCount+'" multiple="multiple" style="width: 100%"></select>'+
+					'<select class="'+ Allomorph[i].name +'" name="'+ Allomorph[i].name + ' Allomorph '+ allomorphCount+'" style="width: 100%"></select>'+
                     '</div></div>';
           }
           else {
@@ -7594,7 +7624,7 @@ function myFunction(newData) {
     else if (value === 'text'){
       inpt += '<div class="col"><div class="form-group">'+
                 '<label for="'+key+'">'+key+'</label>'+
-                '<input type="text" class="form-control" id="'+key+'" name="'+key+'">'+
+                '<input type="text" class="form-control" id="'+key+'" name="'+key+'" required>'+
                 '</div></div>';         
       if (key === 'Pronunciation' || key === 'Upload Sound File' || key === 'Upload Movie File') {               
         $('.enternewlexeme1').append(inpt);
@@ -7702,7 +7732,8 @@ function addsense() {
     else if (Sense[i].name === 'Semantic Domain'|| Sense[i].name === 'Lexical Relation') {
       addSense += '<div class="col-md-4 collapse sense' + senseCount +'"><div class="form-group">'+
               '<label for="'+ Sense[i].name +'">'+ Sense[i].name +'</label>'+
-              '<select class="'+ Sense[i].name +'" name="'+ Sense[i].name + ' Sense '+ senseCount+'" multiple="multiple" style="width: 100%"></select>'+
+            //   '<select class="'+ Sense[i].name +'" name="'+ Sense[i].name + ' Sense '+ senseCount+'" multiple="multiple" style="width: 100%"></select>'+
+			'<select class="'+ Sense[i].name +'" name="'+ Sense[i].name + ' Sense '+ senseCount+'" style="width: 100%"></select>'+
               '</div></div>';
     }
 	else if (Sense[i].name === 'Grammatical Category') {
@@ -7722,7 +7753,7 @@ function addsense() {
   // console.log(addSense);
   $('.sense').append(addSense);
   $('.Grammatical').select2({
-    tags: true,
+    // tags: true,
     placeholder: 'Grammatical Category',
     data: grammaticalCategories,
     allowClear: true
@@ -7768,7 +7799,8 @@ function addvariant() {
       if (Variant[i].name === 'Variant Type') {
         addVariant += '<div class="col-md-4"><div class="form-group">'+
                 '<label for="'+ Variant[i].name +'">'+ Variant[i].name +'</label>'+
-                '<select class="'+ Variant[i].name +'" name="'+ Variant[i].name + ' Variant '+ variantCount+'" multiple="multiple" style="width: 100%"></select>'+
+                // '<select class="'+ Variant[i].name +'" name="'+ Variant[i].name + ' Variant '+ variantCount+'" multiple="multiple" style="width: 100%"></select>'+
+				'<select class="'+ Variant[i].name +'" name="'+ Variant[i].name + ' Variant '+ variantCount+'" style="width: 100%"></select>'+
                 '</div></div>';
       }
       else {
@@ -7816,7 +7848,8 @@ function addallomorph() {
       if (Allomorph[i].name === 'Morph Type') {
         addAllomorph += '<div class="col-md-4"><div class="form-group">'+
                 '<label for="'+ Allomorph[i].name +'">'+ Allomorph[i].name +'</label>'+
-                '<select class="'+ Allomorph[i].name +'" name="'+ Allomorph[i].name + ' Allomorph '+ allomorphCount+'" multiple="multiple" style="width: 100%"></select>'+
+                // '<select class="'+ Allomorph[i].name +'" name="'+ Allomorph[i].name + ' Allomorph '+ allomorphCount+'" multiple="multiple" style="width: 100%"></select>'+
+				'<select class="'+ Allomorph[i].name +'" name="'+ Allomorph[i].name + ' Allomorph '+ allomorphCount+'" style="width: 100%"></select>'+
                 '</div></div>';
       }
       else {
@@ -7852,7 +7885,7 @@ function deleteallomorph(allomorpCount) {
 
 $(document).ready(function () {
   $('.Grammatical').select2({
-    tags: true,
+    // tags: true,
     placeholder: 'Grammatical Category',
     data: grammaticalCategories,
     allowClear: true

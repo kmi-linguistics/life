@@ -11,7 +11,10 @@ Dictionary View
 
 {% block app_content %}
 {% if projectName is defined %}
-    <h4>Project Name : {{ projectName }}</h4><br>
+    <h4>
+        Project Name : {{ projectName }}
+
+    </h4><br>
 {% endif %}
 <div>
     <input id="myInput" type="text" placeholder="Search">
@@ -23,8 +26,8 @@ Dictionary View
         <ul class="dropdown-menu">
             <li class="json"><a href="#">JSON</a></li>
             <li class="csv"><a href="#">CSV</a></li>
-            <!-- <li class="xlsx"><a href="#">XLSX</a></li> -->
-            <!-- <li class="pdf"><a href="#">PDF</a></li> -->
+            <li class="xlsx"><a href="#">XLSX</a></li>
+            <li class="pdf"><a href="#">PDF</a></li>
             <li class="markdown"><a href="#">MARKDOWN</a></li>
             <li class="latex"><a href="#">LATEX</a></li>
             <li class="html"><a href="#">HTML</a></li>
@@ -176,7 +179,9 @@ Dictionary View
                     </a> -->
                 </h4>
                 <br> 
-                <div class="form-group lexemeviewprojectname"></div>    
+                   
+                <div class="lexemeviewlexemeId"></div>
+                <br>
                 <div class="lexemeviewlexemeform"></div>
                 <div class="lexemeviewenternewlexeme1"></div>
                 <div class="lexemeviewsense"></div>

@@ -1,2 +1,10 @@
 __pycache__
+.vscode
 venv
+app/static/json
+download.zip
+LiFE_Uploader_Downloader
+app/lifeliftroot.xml
+app/lifeUploadedFileContent.pkl
+app/lifexlsxdf.tsv
+app/lexemeEntry.json
